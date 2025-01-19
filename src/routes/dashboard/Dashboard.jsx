@@ -27,14 +27,14 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
-      {/* <div className="formContainer">
+      <div className="formContainer">
         <form onSubmit={handleSubmit}>
           <input type="text" name="text" placeholder="Ask me anything..." />
           <button>
             <img src="/arrow.png" alt="" />
           </button>
         </form>
-      </div> */}
+      </div>
     </div>
   );
 }
