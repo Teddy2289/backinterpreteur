@@ -1,0 +1,131 @@
+.singinpage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  margin: 0 0 0.5rem;
+}
+
+p {
+  margin: 0 0 1.5rem;
+  color: #555;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-btn {
+  flex: 1;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #1877f2;
+  color: white;
+}
+
+.google {
+  background-color: #db4437;
+  color: white;
+}
+
+.microsoft {
+  background-color: #f3f3f3;
+  color: #555;
+}
+
+.divider {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.divider span {
+  background-color: white;
+  padding: 0 1rem;
+  color: #888;
+  font-size: 0.8rem;
+  position: relative;
+  z-index: 1;
+}
+
+.divider:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #ddd;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-form input {
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.continue-btn {
+  padding: 0.7rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signup-link {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.footer .dev-mode {
+  display: block;
+  margin-top: 0.5rem;
+  color: #f39c12;
+}
